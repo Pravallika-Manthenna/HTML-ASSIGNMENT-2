@@ -1,10 +1,19 @@
 body{
 	    background-color: #d3d3d3;
 }
+.wrap{
+	background-color: #F3DFFF;
 
-.wrap {
+}
+
+.wrap p{
 	
-	background-color: #f3dfff; 
+	position: relative;
+	width:300px; 
+	height:50px;
+	top: 20px;
+	font-size: 25px;
+	font-style: italic;
 
 }
 
@@ -19,6 +28,9 @@ li{
 	line-height: 40px;
 	font-family: sans-serif;
 	text-decoration: none;
+	position:relative;
+	left:800px;
+	bottom: 50px;
 }
 
 li a{
@@ -26,7 +38,7 @@ li a{
 	font-size: 16px;
 }
 
-header{
+.header{
 	line-height: 20px;
 	font-family: sans-serif;
 	text-decoration: none;
@@ -51,6 +63,10 @@ img{
 
 }
 
+.main{
+	margin-bottom: 70px;
+}
+
 .hero-image{
 	background-position: center;
 	color: #d3d3d3;
@@ -59,13 +75,10 @@ img{
 	height: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: auto;
+	margin-top: 140px;
 }
 .hero-text{
 	text-align: center;
-	position: absolute;
-	top: 30%;
-	left:30%;
 	font-size: 50px;
 	color: #050417;
 }
@@ -74,6 +87,7 @@ footer{
 	background-color: #F3DFFF;
 	font-size: 20px;
 	font-family: sans-serif;
+	width: 100%;
 
 }
 footer img{
@@ -85,3 +99,16 @@ footer img{
 
 }
 
+.fixed-header{
+	position:fixed;
+	background-color: #F3DFFF;
+	width:100%;
+}
+
+.fixed-footer{
+	position: fixed;
+	background: #F3DFFF;
+	width: 100%;
+	bottom: 0;
+	left:0;
+}
